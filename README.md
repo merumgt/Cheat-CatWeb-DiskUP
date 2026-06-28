@@ -2,7 +2,7 @@
 
 A Discord bot that lets you scrape and inspect any **CatWeb** site directly from Discord.
 
-> **Join the Discord to try it out:** [discord.gg/NFHVPuZx9](https://discord.gg/NFHVPuZx9)
+> **Join the Discord to try it out:** https://discord.gg/PJ9mJWYDKj
 
 ---
 
