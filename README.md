@@ -1,4 +1,4 @@
-# CatWeb Bot `v1.0.2`
+# CatWeb Bot `v1.0.3`
 
 A Discord bot that lets you scrape and inspect any **CatWeb** site directly from Discord.
 
@@ -9,8 +9,23 @@ A Discord bot that lets you scrape and inspect any **CatWeb** site directly from
 ## What it does
 
 - `/scrap-site <url>` — Returns the full data of any CatWeb site as a JSON file
-- `/info-site <url>` — Returns info about a site (creator, visits per min/hr/day/week, elements, creation date...)
-- `/stalk <username or id>` — Returns all sites owned by a Roblox user with their visits, total combined visits, bio, join date
+- `/info-site <url>` — Returns info about a site (creator, visits per min/hr/day/week, elements, creation date, thumbnail)
+- `/stalk <username or id>` — Returns all sites owned by a Roblox user with their visits and total combined count
+- `/whois <url>` — Find who owns a domain and get their profile info
+- `/search <keyword>` — Search CatWeb sites by keyword
+- `/clone-check <url1> <url2>` — Check if two sites share similar content and get a similarity score
+
+---
+
+## Working commands
+
+`/scrap-site <url>`
+`/info-site <url>`
+`/stalk <username|id>`
+`/whois <url>`
+`/search <keyword>`
+`/clone-check <url1> <url2>`
+`/keyinfo`
 
 ---
 
@@ -25,18 +40,12 @@ Access is protected by a key system. Keys are valid for **24 hours**.
 
 ---
 
-## Commands
-
-| Command | Description |
-|---|---|
-| `/scrap-site <url>` | Get the full data of a CatWeb site |
-| `/info-site <url>` | Get info and visit stats about a CatWeb site |
-| `/stalk <username\|id>` | Get all sites and total visits from a Roblox user |
-| `/keyinfo` | Check how much time is left on your key |
-
----
-
 ## Changelog
+
+### v1.0.3
+- Added `/whois` — find the owner of any domain with full profile info
+- Added `/search` — search CatWeb sites by keyword
+- Added `/clone-check` — compare two sites and get a % similarity score
 
 ### v1.0.2
 - `/stalk` now fetches all sites in parallel batches — supports 100+ sites
